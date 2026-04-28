@@ -2,10 +2,10 @@
 
 This repository records my learning process in biomedical image processing, deep learning, computational imaging, and CGH phase optimization.
 
-##Learning Goals
+## Learning Goals
 
 1. Improve Python programming ability.
-2. Learn Numpy, OpenCV, and PyTorch.
+2. Learn NumPy, OpenCV, and PyTorch.
 3. Build projects in medical image processing and computational imaging.
 4. Prepare for algorithm and medical device R&D positions.
 
