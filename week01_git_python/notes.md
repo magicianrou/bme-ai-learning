@@ -13,7 +13,6 @@ Today I learned the basic workflow of Git and GitHub:
 
 ## 2. Important Git commands
 
-```bash
 git status
 git add .
 git commit -m "message"
