@@ -1,0 +1,13 @@
+# PyCharm project settings
+.idea/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
