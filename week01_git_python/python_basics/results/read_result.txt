@@ -1,0 +1,2 @@
+The content of sample001.txt is:
+This is sample file 1
