@@ -2,7 +2,9 @@ from pathlib import Path
 
 
 def main():
-    output_dir = Path("results/test_files")
+    script_dir = Path(__file__).resolve().parent
+    # output_dir = Path("results/test_files")
+    output_dir = script_dir / "results" / "test_files"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     for i in range(1, 6):

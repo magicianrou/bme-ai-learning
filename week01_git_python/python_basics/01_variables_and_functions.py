@@ -9,16 +9,16 @@ def main():
     student = {
         "name" : "Lou Xinhang",
         "major" : "biomedical engineering",
-        "school" : "southest university"
+        "school" : "Southeast University"
     }
 
-    meanscore = calculate_mean(scores)
+    mean_score = calculate_mean(scores)
 
     print("student information:", student)
 
     print("Scores:", scores)
 
-    print("meanscore:", meanscore)
+    print("meanscore:", mean_score)
 
 if __name__ == "__main__":
     main()

@@ -5,8 +5,8 @@ def main():
     data_dir = project_root / "data"
     results_dir = project_root / "results"
 
-    # data_dir.mkdir(exist_ok=True)
-    # results_dir.mkdir(exist_ok=True)
+    data_dir.mkdir(exist_ok=True)
+    results_dir.mkdir(exist_ok=True)
 
     print("Current working directory: ", project_root)
 

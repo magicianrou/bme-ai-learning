@@ -1,0 +1,11 @@
+The student's name is Lou Xinhang.
+The student's major is Biomedical Engineering.
+The student's score 1 is 91.
+The student's score 2 is 92.
+The student's score 3 is 93.
+The student's score 4 is 94.
+The student's score 5 is 95.
+
+The mean score is: 93.0
+The max score is: 95
+The min score is: 91
