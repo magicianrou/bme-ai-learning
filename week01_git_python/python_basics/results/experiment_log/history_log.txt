@@ -1,1 +1,12 @@
-{'experiment_name': 'Raman Denoising Test', 'method': 'low-rank constraint', 'snr_values': [12.5, 15.2, 18.7, 20.1], 'accuracy_values': [0.72, 0.78, 0.83, 0.86]}
+Experiment Report
+-------------------------------
+Experiment name : Raman Denoising Test
+Method : low-rank constraint
+SNR : [12.5, 15.2, 18.7, 20.1]
+Accuracy : [0.72, 0.78, 0.83, 0.86]
+Experiment Report
+-------------------------------
+Experiment name : Raman Denoising Test
+Method : low-rank constraint
+SNR : [12.5, 15.2, 18.7, 20.1]
+Accuracy : [0.72, 0.78, 0.83, 0.86]

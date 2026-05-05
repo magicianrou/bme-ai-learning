@@ -1,4 +1,4 @@
-mean_snr is : 20.1
+mean_snr is : 16.625
 max_snr is : 20.1
-mean_accuracy is : 0.86
+mean_accuracy is : 0.7975
 max_accuracy is : 0.86

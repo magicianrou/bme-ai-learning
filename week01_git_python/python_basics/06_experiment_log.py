@@ -28,9 +28,9 @@ def main():
         f.write("-------------------------------\n")
         f.write("Experiment name : "+ experiment["experiment_name"] + "\n")
         f.write("Method : "+ experiment["method"] + "\n")
-        f.write("SNR : " + str(mean_snr) + "\n")
-        f.write("Accuracy : " + str(mean_accuracy) + "\n")
-        
+        f.write("SNR : " + str(experiment["snr_values"]) + "\n")
+        f.write("Accuracy : " + str(experiment["accuracy_values"]) + "\n")
+
 
 
 
