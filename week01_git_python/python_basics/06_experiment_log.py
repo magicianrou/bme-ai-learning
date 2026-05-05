@@ -12,9 +12,9 @@ def main():
         "accuracy_values": [0.72, 0.78, 0.83, 0.86]
     }
 
-    mean_snr = mmax(experiment["snr_values"])
+    mean_snr = mmean(experiment["snr_values"])
     max_snr = mmax(experiment["snr_values"])
-    mean_accuracy = mmax(experiment["accuracy_values"])
+    mean_accuracy = mmean(experiment["accuracy_values"])
     max_accuracy = mmax(experiment["accuracy_values"])
 
     with open(output_dir / "latest_report.txt", "w") as f:
@@ -24,7 +24,14 @@ def main():
         f.write("max_accuracy is : " + str(max_accuracy) + "\n")
 
     with open(output_dir / "history_log.txt", "a") as f:
-        f.write(str(experiment))
+        f.write("Experiment Report\n")
+        f.write("-------------------------------\n")
+        f.write("Experiment name : "+ experiment["experiment_name"] + "\n")
+        f.write("Method : "+ experiment["method"] + "\n")
+        f.write("SNR : " + str(mean_snr) + "\n")
+        f.write("Accuracy : " + str(mean_accuracy) + "\n")
+        
+
 
 
 def mmean(numbers):
