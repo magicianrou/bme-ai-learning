@@ -21,8 +21,10 @@ def main():
 
     with output_file.open("a", encoding="utf-8") as f:
 
-        f.write("The student's name is "+student["name"]+".\n")
-        f.write("The student's major is "+student["major"]+".\n")
+        # f.write("The student's name is "+student["name"]+".\n")
+        f.write(f"The student's name is {student['name']}.\n")
+        #f.write("The student's major is "+student["major"]+".\n")
+        f.write(f"The student's major is {student['major']}.\n")
 
         for index, score in enumerate(student["scores"]):
             f.write("The student's score "+str(index+1)+" is "+str(score)+".\n")
