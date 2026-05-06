@@ -15,7 +15,7 @@ def main():
     print(matrix[:,2])
     print(matrix[3,1])
     print(matrix[2:4,2:4])
-    print(matrix * 2)
+    print(matrix * 0.5)
 
 if __name__ == "__main__":
     main()
