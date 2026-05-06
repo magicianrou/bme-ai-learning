@@ -30,7 +30,7 @@ def main():
     print(matrix.shape)
 
     print("\nMatrix dtype:")
-    print(matrix.dype)
+    print(matrix.dtype)
 
     print("\nElement at row 0, column 0:")
     print(matrix[0, 0])
