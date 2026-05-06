@@ -17,13 +17,13 @@ def main():
     mean_accuracy = mmean(experiment["accuracy_values"])
     max_accuracy = mmax(experiment["accuracy_values"])
 
-    with open(output_dir / "latest_report.txt", "w") as f:
+    with open(output_dir / "latest_report.txt", "w", encoding="utf-8") as f:
         f.write("mean_snr is : " + str(mean_snr) + "\n")
         f.write("max_snr is : " + str(max_snr) + "\n")
         f.write("mean_accuracy is : " + str(mean_accuracy) + "\n")
         f.write("max_accuracy is : " + str(max_accuracy) + "\n")
 
-    with open(output_dir / "history_log.txt", "a") as f:
+    with open(output_dir / "history_log.txt", "a", encoding="utf-8") as f:
         f.write("Experiment Report\n")
         f.write("-------------------------------\n")
         f.write("Experiment name : "+ experiment["experiment_name"] + "\n")
