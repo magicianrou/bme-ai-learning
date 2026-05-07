@@ -5,6 +5,9 @@ def min_max_normalize(data):
     data_min = np.min(data)
     data_max = np.max(data)
 
+    if data_max == data_min:
+        return np.zeros_like(data, dtype=np.float32)
+
     normalized_data = (data - data_min) / (data_max - data_min)
 
     return normalized_data
@@ -13,6 +16,9 @@ def min_max_normalize(data):
 def z_score_normalize(data):
     data_mean = np.mean(data)
     data_std = np.std(data)
+
+    if data_std == 0:
+        return np.zeros_like(data, dtype=np.float32)
 
     normalized_data = (data - data_mean) / data_std
 
