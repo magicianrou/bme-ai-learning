@@ -57,3 +57,29 @@ standardized = (data - mean) / std
 ### 6. Why this matters
 
 In biomedical image processing, Raman spectrum analysis, and CGH intensity optimization, normalization is important because raw data may have different scales.
+
+## Lesson 03: 2D Grid and Gaussian Beam
+
+### 1. np.linspace
+
+np.linspace(start, end, num) creates evenly spaced values between start and end.
+
+### 2. np.meshgrid
+
+np.meshgrid(x, y) converts one-dimensional x and y coordinates into two-dimensional coordinate grids.
+
+### 3. 2D Gaussian beam
+
+A 2D Gaussian beam can be represented as:
+
+G(x, y) = exp(-(x^2 + y^2) / (2 * sigma^2))
+
+The center has the highest intensity, and the intensity decreases toward the edges.
+
+### 4. sigma
+
+Sigma controls the width of the Gaussian beam. A larger sigma produces a wider beam.
+
+### 5. Why this matters
+
+In optical imaging and CGH, the illumination beam is often not perfectly uniform. A Gaussian beam can be used as a simple model of laser illumination.
